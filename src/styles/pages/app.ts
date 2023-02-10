@@ -20,9 +20,10 @@ export const Header = styled("header", {
   alignItems: "center",
   gap: "1rem",
 
-  "@media (max-width: 768px)": {
-    flexDirection: "column",
-    alignItems: "flex-start",
+  img: {
+    width: "7rem",
+    height: "auto",
+    objectFit: "contain",
   },
 
   a: {
@@ -34,4 +35,11 @@ export const Header = styled("header", {
     backgroundImage: `url(${iconsBg.src})`,
     borderRadius: 8,
   },
+});
+
+export const Footer = styled("footer", {
+  width: "100%",
+  maxWidth: 1180,
+  marginInline: "auto",
+  padding: "2rem 1rem",
 });

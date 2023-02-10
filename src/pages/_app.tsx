@@ -4,9 +4,10 @@ import { InstagramLogo } from "phosphor-react";
 
 import { globalStyles } from "@/styles/global";
 
-import logoSvg from "@/assets/logo.svg";
+import logoPng from "@/assets/logo.png";
 
-import { Container, Header } from "@/styles/pages/app";
+import { Container, Footer, Header } from "@/styles/pages/app";
+import Image from "next/image";
 
 globalStyles();
 
@@ -14,7 +15,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <Container>
       <Header>
-        <h1>Visionary Heads NFTs</h1>
+        <h1>
+          <Image src={logoPng} alt="" />
+        </h1>
 
         <a
           href="https://www.instagram.com/visionaryheadsnft/"
@@ -25,6 +28,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         </a>
       </Header>
       <Component {...pageProps} />
+      <Footer>
+        <p>©2023 - Visionary Heads NFTs. All rights reserved.</p>
+      </Footer>
     </Container>
   );
 };

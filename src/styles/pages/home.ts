@@ -2,8 +2,8 @@ import { styled } from "..";
 
 export const HomeContainer = styled("main", {
   display: "flex",
-  width: "100%",
-  marginLeft: "auto",
+  maxWidth: 1180,
+  marginInline: "auto",
   padding: "1rem",
 });
 
@@ -13,6 +13,8 @@ export const Product = styled("a", {
   padding: "1rem",
   cursor: "pointer",
   position: "relative",
+  maxWidth: 560,
+  marginInline: "auto",
 
   display: "flex",
   justifyContent: "center",
@@ -50,6 +52,12 @@ export const Product = styled("a", {
       fontSize: "$xl",
       fontWeight: "bold",
       color: "$green300",
+    },
+
+    "@media (max-width: 768px)": {
+      flexDirection: "column",
+      alignItems: "flex-start",
+      gap: "1rem",
     },
   },
 
