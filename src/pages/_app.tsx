@@ -40,7 +40,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
             </a>
 
             <a
-              href="https://discord.gg/hY2B5EkG"
+              href="https://discord.gg/52Dh5xDpHM"
               target="_blank"
               rel="noopener noreferrer"
               className="discord"
