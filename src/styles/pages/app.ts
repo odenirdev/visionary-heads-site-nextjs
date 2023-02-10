@@ -1,6 +1,8 @@
 import { styled } from "..";
 
-import iconsBg from "@/assets/iconsBg.png";
+import instagramBg from "@/assets/instagramBg.png";
+import twitterBg from "@/assets/twitterBg.png";
+import discordBg from "@/assets/discordBg.png";
 
 export const Container = styled("div", {
   display: "flex",
@@ -15,10 +17,30 @@ export const Header = styled("header", {
   width: "100%",
   maxWidth: 1180,
   marginInline: "auto",
-  display: "flex",
-  justifyContent: "space-between",
-  alignItems: "center",
-  gap: "1rem",
+
+  "section:first-child": {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: "1rem",
+
+    "& > div": {
+      display: "flex",
+      gap: "1rem",
+    },
+  },
+
+  "section:last-child": {
+    marginTop: "3rem",
+
+    h2: {
+      marginBottom: "2rem",
+    },
+
+    p: {
+      marginBottom: "1rem",
+    },
+  },
 
   img: {
     width: "7rem",
@@ -32,8 +54,19 @@ export const Header = styled("header", {
     alignItems: "center",
     color: "$white",
     fontSize: 44,
-    backgroundImage: `url(${iconsBg.src})`,
     borderRadius: 8,
+
+    "&.instagram": {
+      backgroundImage: `url(${instagramBg.src})`,
+    },
+
+    "&.twitter": {
+      backgroundImage: `url(${twitterBg.src})`,
+    },
+
+    "&.discord": {
+      backgroundImage: `url(${discordBg.src})`,
+    },
   },
 });
 

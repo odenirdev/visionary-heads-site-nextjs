@@ -3,10 +3,11 @@ import { styled } from "@/styles";
 export const ProductContainer = styled("a", {
   background: "rgba(255, 255, 255, 0.03)",
   borderRadius: 8,
-  padding: "1rem",
+  padding: "2rem",
   cursor: "pointer",
   position: "relative",
   maxWidth: 560,
+  height: "fit-content",
   marginInline: "auto",
 
   display: "flex",
@@ -18,6 +19,7 @@ export const ProductContainer = styled("a", {
   img: {
     objectFit: "contain",
     width: "100%",
+    height: "auto",
   },
 
   footer: {

@@ -11,7 +11,7 @@ import { products } from "@/config/products";
 const Home: React.FC = () => {
   const [sliderRef] = useKeenSlider({
     slides: {
-      perView: 2,
+      perView: 3,
       spacing: 48,
     },
 
