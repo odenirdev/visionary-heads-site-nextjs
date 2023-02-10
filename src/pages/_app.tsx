@@ -55,35 +55,35 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
             <h2>Hello Friends!</h2>
 
             <p>
-              We are excited to share with you our brand new digital collection,
+              {`We are excited to share with you our brand new digital collection,
               a collab between two talented brazilian artists. Tripa Seca that
               brings to life full-of-personality avatars, and Lucca Poliandri
-              who creates trippy background arts.
+              who creates trippy background arts.`}
             </p>
 
             <p>
-              Explore 5,000 unique avatars generated from more than 150 unique
+              {`Explore 5,000 unique avatars generated from more than 150 unique
               assets, marked by the traits of Tripa Seca. Complementing these
               avatars are 33 psychedelic backgrounds, each a digital
-              reinterpretation of Lucca's physical acrylic and paint artwork.
+              reinterpretation of Lucca's physical acrylic and paint artwork.`}
             </p>
 
             <p>
-              The avatars have been intentionally designed in black and white to
+              {`The avatars have been intentionally designed in black and white to
               highlight the vibrancy of the backgrounds and showcase both
-              artists' works to the fullest.
+              artists' works to the fullest.`}
             </p>
 
             <p>
-              Our goal is to connect with individuals who appreciate visionary
+              {`Our goal is to connect with individuals who appreciate visionary
               art and are interested in exploring the potential of NFTs and the
-              Web3 world.
+              Web3 world.`}
             </p>
 
             <p>
-              To build this community, we have created a space on Discord where
+              {`To build this community, we have created a space on Discord where
               you can join us. Don’t miss this historic opportunity to be part
-              of our NFT art collection. So tell us, what’s your visionary head?
+              of our NFT art collection. So tell us, what’s your visionary head?`}
             </p>
           </div>
         </section>
