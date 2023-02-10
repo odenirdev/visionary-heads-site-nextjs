@@ -21,8 +21,64 @@ export const products: IProductsProps[] = [
     id: "3",
     image:
       "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
-    name: "Visionary Heads 2",
+    name: "Visionary Heads 3",
     value: "352.250 ETH",
+    link: "",
+  },
+  {
+    id: "4",
+    image:
+      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
+    name: "Visionary Heads 4",
+    value: "400.250 ETH",
+    link: "",
+  },
+  {
+    id: "5",
+    image:
+      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
+    name: "Visionary Heads 4",
+    value: "400.250 ETH",
+    link: "",
+  },
+  {
+    id: "6",
+    image:
+      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
+    name: "Visionary Heads 4",
+    value: "400.250 ETH",
+    link: "",
+  },
+  {
+    id: "7",
+    image:
+      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
+    name: "Visionary Heads 4",
+    value: "400.250 ETH",
+    link: "",
+  },
+  {
+    id: "8",
+    image:
+      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
+    name: "Visionary Heads 4",
+    value: "400.250 ETH",
+    link: "",
+  },
+  {
+    id: "9",
+    image:
+      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
+    name: "Visionary Heads 4",
+    value: "400.250 ETH",
+    link: "",
+  },
+  {
+    id: "10",
+    image:
+      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
+    name: "Visionary Heads 4",
+    value: "400.250 ETH",
     link: "",
   },
 ];
