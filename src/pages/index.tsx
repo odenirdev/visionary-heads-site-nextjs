@@ -35,7 +35,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Visionary Heads NFTs</title>
+        <title>Visionary Heads</title>
 
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
