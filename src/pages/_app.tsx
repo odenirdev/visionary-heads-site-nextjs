@@ -92,7 +92,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <Component {...pageProps} />
 
       <Footer>
-        <p>©2023 - Visionary Heads NFTs. All rights reserved.</p>
+        <p>©2023 - Visionary Heads. All rights reserved.</p>
       </Footer>
     </Container>
   );

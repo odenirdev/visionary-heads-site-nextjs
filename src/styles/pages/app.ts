@@ -43,7 +43,7 @@ export const Header = styled("header", {
   },
 
   img: {
-    width: "7rem",
+    width: "10rem",
     height: "auto",
     objectFit: "contain",
   },

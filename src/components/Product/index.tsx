@@ -8,8 +8,8 @@ export interface IProductsProps {
   id: string;
   image: string;
   link: string;
-  name: string;
-  value: string;
+  name?: string;
+  value?: string;
 }
 
 export const Product: React.FC<IProductsProps> = ({ image, name, value }) => {
@@ -17,11 +17,13 @@ export const Product: React.FC<IProductsProps> = ({ image, name, value }) => {
     <ProductContainer>
       <Image loader={() => image} src={image} alt="" width={520} height={520} />
 
-      <footer>
-        <strong>{name}</strong>
+      {name && (
+        <footer>
+          <strong>{name}</strong>
 
-        <span>{value}</span>
-      </footer>
+          <span>{value}</span>
+        </footer>
+      )}
     </ProductContainer>
   );
 };
