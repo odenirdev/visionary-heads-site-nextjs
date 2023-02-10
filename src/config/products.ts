@@ -49,16 +49,4 @@ export const products: IProductsProps[] = [
       "https://cdn.discordapp.com/attachments/770044750459699200/1073284476639129620/insta_pic_1.png",
     link: "",
   },
-  {
-    id: "2",
-    image:
-      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477104689212/insta_pic_2.png",
-    link: "",
-  },
-  {
-    id: "3",
-    image:
-      "https://cdn.discordapp.com/attachments/770044750459699200/1073284477477986345/insta_pic_3.png",
-    link: "",
-  },
 ];
