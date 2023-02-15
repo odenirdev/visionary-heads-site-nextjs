@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AppProps } from "next/app";
 import { DiscordLogo, InstagramLogo, TwitterLogo } from "phosphor-react";
 
 import { globalStyles } from "@/styles/global";
 
 import logoPng from "@/assets/logo.png";
+// import openSeaSvg from "@/assets/openSea.svg";
 
 import { Container, Footer, Header } from "@/styles/pages/app";
 import Image from "next/image";
@@ -12,6 +13,12 @@ import Image from "next/image";
 globalStyles();
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
+  useEffect(() => {
+    document.querySelector(
+      "#wallet-btn"
+    )!.innerHTML = `<nftart-mint-button address="0x7F67DB38F6622b2E4064832b88F2CCf59981E578" chain-id="1" />`;
+  }, []);
+
   return (
     <Container>
       <Header>
@@ -20,12 +27,18 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
             <Image src={logoPng} alt="" />
           </h1>
 
-          <nftart-mint-button
-            address="0x7F67DB38F6622b2E4064832b88F2CCf59981E578"
-            chain-id="1"
-          />
+          <span id="wallet-btn"></span>
 
           <div>
+            {/* <a
+              href="https://www.instagram.com/visionaryheadsnft/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="instagram"
+            >
+              <Image src={openSeaSvg} alt="" />
+            </a> */}
+
             <a
               href="https://www.instagram.com/visionaryheadsnft/"
               target="_blank"

@@ -20,13 +20,15 @@ export const globalStyles = globalCss({
 
   ".nft-art-gen-section button, .nft-art-gen-section select": {
     background: "#f33312",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
     color: "#ffffff",
     fontSize: 16,
-    borderRadius: 25,
-    paddingInline: 16,
+    borderRadius: 8,
+    paddingInline: 32,
     paddingBlock: 8,
     lineHeight: "100%",
-    height: "auto",
-    border: "3px solid #000000",
+    height: 42,
+    border: "none",
   },
 });
