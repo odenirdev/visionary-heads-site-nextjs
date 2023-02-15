@@ -65,6 +65,8 @@ export const Header = styled("header", {
       width: 32,
     },
 
+    backgroundSize: "cover",
+
     "&.instagram": {
       backgroundImage: `url(${instagramBg.src})`,
     },
