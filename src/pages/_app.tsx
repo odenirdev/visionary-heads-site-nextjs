@@ -30,14 +30,14 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           <span id="wallet-btn"></span>
 
           <div>
-            {/* <a
-              href="https://www.instagram.com/visionaryheadsnft/"
+            <a
+              href="https://opensea.io/collection/visionary-heads"
               target="_blank"
               rel="noopener noreferrer"
               className="openSea"
             >
               <Image src={openSeaSvg} alt="" />
-            </a> */}
+            </a>
 
             <a
               href="https://www.instagram.com/visionaryheadsnft/"
