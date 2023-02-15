@@ -24,6 +24,10 @@ export const Header = styled("header", {
     alignItems: "center",
     gap: "1rem",
 
+    "@media (max-width: 768px)": {
+      flexDirection: "column",
+    },
+
     "& > div": {
       display: "flex",
       gap: "1rem",

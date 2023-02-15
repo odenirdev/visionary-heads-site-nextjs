@@ -20,6 +20,11 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
             <Image src={logoPng} alt="" />
           </h1>
 
+          <nftart-mint-button
+            address="0x7F67DB38F6622b2E4064832b88F2CCf59981E578"
+            chain-id="1"
+          />
+
           <div>
             <a
               href="https://www.instagram.com/visionaryheadsnft/"

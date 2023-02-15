@@ -17,4 +17,16 @@ export const globalStyles = globalCss({
     fontFamily: "Roboto",
     fontWeight: 400,
   },
+
+  ".nft-art-gen-section button, .nft-art-gen-section select": {
+    background: "#f33312",
+    color: "#ffffff",
+    fontSize: 16,
+    borderRadius: 25,
+    paddingInline: 16,
+    paddingBlock: 8,
+    lineHeight: "100%",
+    height: "auto",
+    border: "3px solid #000000",
+  },
 });

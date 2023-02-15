@@ -7,7 +7,6 @@ import { ProductContainer } from "./styles";
 export interface IProductsProps {
   id: string;
   image: string;
-  link: string;
   name?: string;
   value?: string;
 }
