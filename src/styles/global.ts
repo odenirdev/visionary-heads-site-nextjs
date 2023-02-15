@@ -22,6 +22,7 @@ export const globalStyles = globalCss({
     background: "#f33312",
     backgroundPosition: "center",
     backgroundSize: "cover",
+    cursor: "pointer",
     color: "#ffffff",
     fontSize: 16,
     borderRadius: 8,

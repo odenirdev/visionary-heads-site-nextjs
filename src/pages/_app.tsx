@@ -5,7 +5,7 @@ import { DiscordLogo, InstagramLogo, TwitterLogo } from "phosphor-react";
 import { globalStyles } from "@/styles/global";
 
 import logoPng from "@/assets/logo.png";
-// import openSeaSvg from "@/assets/openSea.svg";
+import openSeaSvg from "@/assets/openSea.svg";
 
 import { Container, Footer, Header } from "@/styles/pages/app";
 import Image from "next/image";
@@ -34,7 +34,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
               href="https://www.instagram.com/visionaryheadsnft/"
               target="_blank"
               rel="noopener noreferrer"
-              className="instagram"
+              className="openSea"
             >
               <Image src={openSeaSvg} alt="" />
             </a> */}

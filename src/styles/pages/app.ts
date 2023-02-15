@@ -3,6 +3,7 @@ import { styled } from "..";
 import instagramBg from "@/assets/instagramBg.png";
 import twitterBg from "@/assets/twitterBg.png";
 import discordBg from "@/assets/discordBg.png";
+import openSeaBg from "@/assets/openSeaBg.png";
 
 export const Container = styled("div", {
   display: "flex",
@@ -77,6 +78,10 @@ export const Header = styled("header", {
 
     "&.discord": {
       backgroundImage: `url(${discordBg.src})`,
+    },
+
+    "&.openSea": {
+      backgroundImage: `url(${openSeaBg.src})`,
     },
   },
 });
