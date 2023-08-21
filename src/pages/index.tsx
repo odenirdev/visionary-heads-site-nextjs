@@ -66,10 +66,7 @@ const Home: React.FC = () => {
           property="og:description"
           content="We are excited to share with you our brand new digital collection, a collab between two talented brazilian artists. Tripa Seca that brings to life full-of-personality avatars, and Lucca Poliandri who creates trippy background arts"
         />
-        <meta
-          property="og:image"
-          content="https://metatags.io/images/meta-tags.png"
-        />
+        <meta property="og:image" content="/logo.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -81,10 +78,7 @@ const Home: React.FC = () => {
           property="twitter:description"
           content="We are excited to share with you our brand new digital collection, a collab between two talented brazilian artists. Tripa Seca that brings to life full-of-personality avatars, and Lucca Poliandri who creates trippy background arts"
         />
-        <meta
-          property="twitter:image"
-          content="https://metatags.io/images/meta-tags.png"
-        />
+        <meta property="twitter:image" content="/logo.png" />
       </Head>
       <HomeContainer ref={sliderRef} className="keen-slider">
         {products.map((product) => (
