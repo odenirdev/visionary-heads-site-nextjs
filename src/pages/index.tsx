@@ -39,12 +39,14 @@ const Home: React.FC = () => {
         <link rel="icon" href="/favicon.ico" sizes="any" />
 
         <script
+          async
           type="module"
-          src="https://cdn.nft-generator.art/js-sdk/v1.4.2/nft-art-generator-sdk/nft-art-generator-sdk.esm.js"
+          src="https://cdn.nft-generator.art/js-sdk/v1.5.8/index.js"
         />
-        <script
-          noModule
-          src="https://cdn.nft-generator.art/js-sdk/v1.4.2/nft-art-generator-sdk/nft-art-generator-sdk.js"
+        <link
+          rel="stylesheet"
+          href="https://cdn.nft-generator.art/js-sdk/v1.5.8/style.css"
+          type="text/css"
         />
         <meta
           name="nft-art-contract-abi"
