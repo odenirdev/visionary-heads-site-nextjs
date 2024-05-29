@@ -16,7 +16,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
     document.querySelector(
       "#wallet-btn"
-    )!.innerHTML = `<nftart-mint-button address="0x7F67DB38F6622b2E4064832b88F2CCf59981E578" chain-id="1" />`;
+    )!.innerHTML = `<nftart-mint-button address="0x7F67DB38F6622b2E4064832b88F2CCf59981E578" chainId="1"></nftart-mint-button>`;
   }, []);
 
   return (
